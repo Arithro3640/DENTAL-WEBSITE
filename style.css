@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+.navpart-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.nav h3 {
+  font-weight: 500;
+  font-size: 1em;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.ri-menu-3-line {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.nav button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.nav h1 {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.btn2 {
+  color: white;
+  background-color: orangered;
+}
+
+.main > h1 {
+  width: 100%;
+  font-size: 130px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+  height: 400px;
+  width: 350px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img1 {
+  transform: translate(-50%, -50%) rotate(25deg);
+  border: 2px solid black;
+}
+.img2 {
+  transform: translate(-50%, -50%) rotate(15deg);
+  border: 2px solid black;
+}
+.img3 {
+  transform: translate(-50%, -50%) rotate(7deg);
+  border: 2px solid black;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: orangered;
+  position: absolute;
+  bottom: 9%;
+  left: 3%;
+  border-radius: 50%;
+}
+h5 {
+  font-size: 18px;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-weight: 500;
+}
+.right {
+  position: absolute;
+  bottom: 7%;
+  right: 5%;
+}
+.right i {
+  font-size: 1.5em;
+  padding: 2px;
+}
+h4 {
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+  font-weight: 500;
+}
+
